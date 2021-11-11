@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 import Header from "@components/Header";
 import Container from "@components/Container";
@@ -24,7 +25,7 @@ export default function Home() {
             {products.map((product) => {
               return (
                 <li key={product.id}>
-                  <img src={product.image} alt={`Card of ${product.title}`} />
+                  <Image src={product.image} alt={`Card of ${product.title}`} />
                   <h3>{products.title}</h3>
                   <p>{product.price}</p>
                   <p>
