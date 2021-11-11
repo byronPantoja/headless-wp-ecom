@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
-        <p className={styles.headerTitle}>Bee&apos;s Store</p>
+        <p className={styles.headerTitle}>Developer833 - Trading Cards</p>
         <p className={styles.headerCart}>
           <FaShoppingCart />
           $0.00
